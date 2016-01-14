@@ -1,5 +1,7 @@
 *.class
 
+*.log
+
 target/
 .project
 .classpath
@@ -15,6 +17,9 @@ reports/
 .gradle/
 .directory
 build/
+
+bosh_ssh_*
+bosh_ssh_*.*
 
 # Package Files #
 *.jar

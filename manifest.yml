@@ -1,0 +1,10 @@
+---
+applications:
+- name: hz-embedded-test-app-2
+  memory: 512M
+  instances: 1
+  path: /Users/rahul/Hazelcast/cloudfoundry/hazelcast-cf-client/target/hazelcast-cf-client-1.0-SNAPSHOT-jar-with-dependencies.jar
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  stack: cflinuxfs2
+  env:
+    HZ_INSTANCE: 10.254.0.66
