@@ -107,8 +107,8 @@ jobs:
       resurrector_enabled: true
 
     aws: &aws
-      access_key_id: AKIAIIPDRBPT2T256JOQ # <--- Replace with AWS Access Key ID
-      secret_access_key: ftq3UF04fpiF6mMW2/owqjO/aRAK04gTkykEPQ4N # <--- Replace with AWS Secret Key
+      access_key_id:  # <--- Replace with AWS Access Key ID
+      secret_access_key:  # <--- Replace with AWS Secret Key
       default_key_name: bosh
       default_security_groups: [bosh]
       region: us-east-1  # <--- Replace with Region
